@@ -1,23 +1,50 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home/Home';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Menu from './components/Navbar/Menu';
+import Formacion from './components/Formacion/Formacion';
+import Experiencia from './components/Experiencia/Experiencia';
+import SobreMi from './components/SobreMi/SobreMi';
+import Contacto from './components/Contacto/Contacto';
+import Skills from './components/Skills/Skills';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <BrowserRouter>
+      <Menu/>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+      </Switch>
+
+      <Switch>
+        <Route exact path="/Formacion">
+          <Formacion/>
+        </Route>
+      </Switch>
+
+
+      <Switch>
+        <Route exact path="/Experiencia">
+          <Experiencia/>
+        </Route>
+      </Switch>
+
+      <Switch>
+        <Route exact path="/SobreMi">
+          <SobreMi/>
+        </Route>
+      </Switch>
+
+    </BrowserRouter>
+
+
     </div>
   );
 }

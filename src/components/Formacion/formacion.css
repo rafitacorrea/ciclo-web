@@ -1,0 +1,24 @@
+.Formacion{
+    background: linear-gradient(110deg, #90CCF4 60%, #2b2b2b 60%);
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.title-formacion{
+    font-family: 'DM Sans', sans-serif;
+    font-size:72px;
+    box-shadow: 0px -10px #2b2b2b;
+    margin-bottom:20px;
+}
+.tabla{
+    color:#90CCF4;
+    background-color:#2b2b2b;
+    box-shadow: 10px 10px #90CCF4;
+    border: #2b2b2b;
+    width:auto;
+    margin-bottom:50px;
+}
