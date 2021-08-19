@@ -19,15 +19,15 @@ const Contacto = () =>{
                   <Modal.Body className="modal-contacto">
                       <div className="modal-section">
                       <RiGlobalLine className="contacto-icon"/>
-                        <a href="http://rafitacorrea.com.ar" target="_blank" className="contacto-text">www.rafitacorrea.com.ar</a>
+                        <a href="http://rafitacorrea.com.ar" target="_blank" rel="noreferrer" className="contacto-text">www.rafitacorrea.com.ar</a>
                       </div>
                       <div className="modal-section">
                       <RiLinkedinBoxFill className="contacto-icon"/>
-                        <a href="https://www.linkedin.com/in/rafaela-correa-marjak/" target="_blank" className="contacto-text">Rafaela Correa Marjak</a>
+                        <a href="https://www.linkedin.com/in/rafaela-correa-marjak/" target="_blank" rel="noreferrer" className="contacto-text">Rafaela Correa Marjak</a>
                       </div>
                       <div className="modal-section">
                       <RiGithubFill className="contacto-icon"/>
-                        <a href="https://github.com/rafitacorrea" target="_blank" className="contacto-text">rafitacorrea</a>
+                        <a href="https://github.com/rafitacorrea" target="_blank" rel="noreferrer" className="contacto-text">rafitacorrea</a>
                       </div>
                       <div className="modal-section">
                         <RiMailFill className="contacto-icon"/>

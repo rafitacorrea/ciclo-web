@@ -17,6 +17,9 @@ const Skills = () =>{
                     <FaCss3Alt className="skill-icon"/>
                 </Col>
                 <Col md="auto">
+                    <FaSass className="skill-icon"/>
+                </Col>
+                <Col md="auto">
                     <FaBootstrap className="skill-icon"/>
                 </Col>
                 <Col md="auto">

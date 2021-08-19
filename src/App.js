@@ -7,7 +7,6 @@ import Menu from './components/Navbar/Menu';
 import Formacion from './components/Formacion/Formacion';
 import Experiencia from './components/Experiencia/Experiencia';
 import SobreMi from './components/SobreMi/SobreMi';
-import Contacto from './components/Contacto/Contacto';
 
 
 const App = () => {
