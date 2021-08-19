@@ -8,7 +8,6 @@ import Formacion from './components/Formacion/Formacion';
 import Experiencia from './components/Experiencia/Experiencia';
 import SobreMi from './components/SobreMi/SobreMi';
 import Contacto from './components/Contacto/Contacto';
-import Skills from './components/Skills/Skills';
 
 
 const App = () => {

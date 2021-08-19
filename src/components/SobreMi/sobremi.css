@@ -14,3 +14,11 @@
     box-shadow: 0px -10px #2b2b2b;
     margin-bottom:20px;
 }
+.text-sobremi{
+    width:700px;
+    color:#2b2b2b;
+    background-color:#ae90f4;
+    font-family: 'DM Sans', sans-serif;
+    text-align:justify;
+    padding:0 15px;
+}

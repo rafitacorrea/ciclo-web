@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './menu.css';
 import Contacto from '../Contacto/Contacto';
 import Container from 'react-bootstrap/Container';
 import {Nav, Navbar} from 'react-bootstrap';
 
 const Menu = () =>{
+
     return(
         <Navbar ClassName="navbar">
         <Container>
@@ -14,7 +15,7 @@ const Menu = () =>{
           <Nav.Link href="/Formacion">formación</Nav.Link>
           <Nav.Link href="/Experiencia">experiencia laboral</Nav.Link>
           <Nav.Link href="/SobreMi">sobre mí</Nav.Link>
-      <Nav.Link onClick={<Contacto/>}>contacto</Nav.Link>
+      <Contacto /> 
         </Nav>
         </Container>
       </Navbar>
