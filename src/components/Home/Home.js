@@ -1,17 +1,22 @@
 import React from 'react';
 import './home.css';
+import imageHome from '../../img/home.jpg';
+import Container from 'react-bootstrap/Container';
 
 const Home = ()=>{
     return(
         <div className="Home">
-            <div className="title">
-                <h2 className="hola">HO</h2>
-                <h2 className="hola">LA</h2>
+          <div className="banner">
+            <Container className="banner">
+            <div className="banner-text">
+              <h2 className="banner-title">galería revista ciclo es un anti-medio que presenta artistas, poetas, escritores y fotógrafos en un ensayo visual en vivo.</h2>
+              <h3 className="'">los links son la nueva forma de ver la realidad y así cada espectador crea su propia obra.</h3>
             </div>
-            <div className="presentation">
-                <p className="intro">soy rafaela correa marjak</p>
-                <p className="about">trainee software engineer / diseñadora multimedia / artista visual</p>
+            <div className="banner-image">
+              <img className="image-home" src={imageHome} alt="imagen cuadro con espirales"/>
             </div>
+            </Container>
+          </div>
         </div>
     )
 }

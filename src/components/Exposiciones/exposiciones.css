@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@300;400&display=swap');
+
+.Exposiciones{
+    width: 100%;
+    height:auto;
+}
+.sala-exposiciones-title{
+    background-color:#F21401;
+    color:#fff;
+    padding-left:15px;
+    font-family: 'Alfa Slab One';
+}
+.sala-exposiciones-maintitle{
+    font-family: 'Alfa Slab One';
+    color:#F21401;
+}
+.sala-exposiciones-img{
+    display:flex;
+    justify-content: center;
+    margin:30px 0;
+}
+.sala-exposiciones-info{
+    margin-bottom:30px;
+}
+span{
+    font-weight:bold;
+}
