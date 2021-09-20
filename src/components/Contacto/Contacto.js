@@ -17,8 +17,8 @@ const Contacto = () =>{
                   </Modal.Header>
                   <Modal.Body className="modal-contacto">
                       <div className="modal-section">
-                        <p className="contacto-text">Las visitas a la galería son programadas y para ello es necesario concretar cita. Para ello por favor comunicarse a <span>galeriaciclo@gmail.com</span><br/>
-                        Estamos en el corazón del bajo Belgrano, en la calle Sucre y Cazadores.<br/>
+                        <p className="contacto-text">Estamos en Sucre y Cazadores en el Bajo Belgrano.<br/>
+                        Las visitas son programadas.Para concretar escribir a: <span>galeriaciclo@gmail.com</span> o a nuestras redes sociales.<br/>
                         En Ciclo cuidamos la distancia social y sus espacios están bien ventilados.
                          </p>
                       </div>

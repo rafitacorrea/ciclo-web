@@ -3,6 +3,17 @@
 .Exposiciones{
     width: 100%;
     height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+@media only screen and (max-width: 600px) {
+    .container-exposiciones{
+        width:90%;
+        
+    }
 }
 .sala-exposiciones-title{
     background-color:#F21401;
@@ -13,6 +24,7 @@
 .sala-exposiciones-maintitle{
     font-family: 'Alfa Slab One';
     color:#F21401;
+    padding-left:15px;
 }
 .sala-exposiciones-img{
     display:flex;
@@ -24,4 +36,7 @@
 }
 span{
     font-weight:bold;
+}
+h5{
+    margin:15px 0;
 }

@@ -1,0 +1,9 @@
+.artistas-name{
+    font-family: 'Alfa Slab One';
+    color:#F21401;
+    padding:0 15px;
+    font-size:2rem; 
+}
+.artistas-name:hover{
+    color:#000;
+}

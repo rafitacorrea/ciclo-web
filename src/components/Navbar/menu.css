@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.Menu{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 .top{
     display:flex;
     flex-direction:row;
@@ -34,11 +40,7 @@ ul{
     background-color:#fff;
     font-family: 'Bebas Neue';
     font-size:24px;
-    width:100vw;
-}
-.hola{
-    position:sticky;
-    top:0;
+
 }
 .navbar-light .navbar-nav .nav-link{
     color:#000;
@@ -54,3 +56,91 @@ ul{
     position: sticky;
     top: 0;
 }
+.logo-mobile{
+    display:none;
+}
+@media only screen and (max-width: 600px) {
+    .top{
+        display:none;   
+    }
+    .logo-mobile{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:40px;
+    }
+    .navbar-mobile{
+        border: none;   
+        margin-left:10px;   
+    }
+    .nav-link{
+        margin-left:10px;
+    }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.top{
+
+    margin-top:35px;
+    margin-bottom:20px;
+}
+
+.language{
+    font-family: 'Bebas Neue';
+    font-size:16px;
+    text-decoration:none;
+    list-style:none;
+    color:#000;
+}
+.language:hover{
+    color:#187DF2;
+}
+.logo{
+    width:100%;
+    height:auto;
+}
+.icono{
+    color:white;
+}
+.navbar{
+    background-color:#fff;
+    font-family: 'Bebas Neue';
+    font-size:24px;
+    width:100vw;
+    position:fixed;
+    top:0; 
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#F21401;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand{
+    color:#F3D250;
+}
+
+ @media (min-width: 320px) and (max-width: 900px) {
+  
+    .container-menu{
+        position:fixed;
+        top:10px;
+    }
+    .navbar{
+        position:fixed;
+        top:10px;
+    }
+    .bottom{
+        padding-top:10px;
+        margin-bottom:20px;
+    }
+    
+  } 
+
+  .bottom{
+
+    padding-top:75px;
+    margin-bottom:20px;
+} */
