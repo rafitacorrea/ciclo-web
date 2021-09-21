@@ -13,7 +13,7 @@ const ArtistasImg = ({name, image}) =>{
             <Nav.Link onClick={handleShow} className="artistas-name">{name}</Nav.Link>
                   <Modal show={show} onHide={handleClose}>
                     <Modal.Header closeButton className="modal-artistas">
-                      <img src={image}/>
+                      <img src={image} alt="#"/>
                     </Modal.Header>
                   </Modal>
       </>

@@ -1,0 +1,60 @@
+.Artistas-Home{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color:#000;
+    color:#fff;
+    padding-top:70px;
+}
+.container-artistas-home{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+}
+@media only screen and (max-width: 600px) {
+    .container-artistas-home{
+        width:90%;
+        display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+        
+    }
+}
+.artistas-home-title{
+    text-align: center;
+    margin-bottom:50px;
+    color:#fff;
+    font-family: 'Alfa Slab One';
+}
+.artistas-name{
+    font-family: 'Alfa Slab One';
+    color:#F21401;
+    padding-left:15px;
+}
+
+.artistas-home-info{
+    margin-bottom:30px;
+
+}
+.espacio{
+    height:100px;
+}
+.artistas-home-info-data-img{
+    width:200px;
+    height:300px;
+    background-color:black;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width:100%;
+    height:auto;
+}

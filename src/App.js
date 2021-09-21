@@ -7,6 +7,7 @@ import Menu from './components/Navbar/Menu';
 import Muestra from './components/Muestra/Muestra';
 import Footer from './components/Footer/Footer';
 import Exposiciones from './components/Exposiciones/Exposiciones';
+import ArtistasHome from './components/ArtistasHome/ArtistasHome';
 import ArtistasDos from './components/ArtistasDos/ArtistasDos';
 
 
@@ -20,8 +21,7 @@ const App = () => {
         <Route exact path="/">
           <Home/>
           <Muestra/>
-          <div className="espacio"></div>
-          <ArtistasDos/>
+          <ArtistasHome/>
         </Route>
       </Switch>
 

@@ -10,16 +10,6 @@ const Home = ()=>{
         <div className="Home">
 
           <div className="banner">
-{/*             <Container className="banner">
-            <div className="banner-text">
-              <h2 className="banner-title">Revista Ciclo es una galería de arte. Un anti-medio en donde artistas, poestas, escritores y fotógrafos forman un organismo vivo.</h2>
-              <h3 className="'">Un lugar en donde los espectadores crean la obra.</h3>
-            </div>
-            <div className="banner-image">
-              <img className="image-home" src={imageHome} alt="imagen cuadro con espirales"/>
-            </div>
-            </Container> */}
-
               <Row className="banner-image">
                 <Col lg="6" xs="12">
             <div className="banner-text">
@@ -29,17 +19,6 @@ const Home = ()=>{
             </Col>
             <Col lg="6" xs="12" className="banner-image banner-desktop" >
             <div className="banner-image">
-{/*               <picture>
-               <source className="image-home"
-      media="(min-width: 650px)"
-      srcset={imageHome} />
-   <source 
-      media="(min-width: 465px)"
-      srcset={imageHome} />
-   <img className="image-home" src={imageHome}
-   />
-</picture> */}
-
               <img className="image-home" src={imageHome} alt="imagen cuadro con espirales"/> 
             </div>
             </Col>

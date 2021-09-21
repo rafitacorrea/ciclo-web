@@ -1,5 +1,5 @@
 import React from 'react';
-import './artistasdos.css';
+import './artistashome.css';
 import ArtistasCard from '../ArtistasCard/ArtistasCard';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -10,16 +10,14 @@ import Biyina from '../../img/biyina-baja.jpg';
 import Brickles from '../../img/brickles-baja.jpg';
 import Marjak from '../../img/marjak-baja.jpg';
 
-
-
-const ArtistasDos = () =>{
+const ArtistasHome = () =>{
     return(
-        <div className="Artistas">
-            <Container className="container-artistas">
-                <div className="artistas-section">
-                    <h3 className="artistas-title">ARTISTAS DE LA GALERÍA</h3>
+        <div className="Artistas-Home">
+            <Container className="container-artistas-home">
+              <div className="artistas-home-section">
+                    <h3 className="artistas-home-title">ARTISTAS DE LA GALERÍA</h3>
                     
-                    <div className="artistas-info">
+                    <div className="artistas-home-info">
                     <Row>
                         <Col>
                         <ArtistasCard name="Pier Cantamessa" image={Cantamessa}/>
@@ -37,14 +35,15 @@ const ArtistasDos = () =>{
                         </div>
                         
                 </div> 
-                <div className="artistas-section">
-                    <h3 className="artistas-title">OBRAS EN TRASTIENDA</h3>
+                <div className="espacio-home"></div>
+{/*                 <div className="artistas-home-section">
+                    <h3 className="artistas-home-title">OBRAS EN TRASTIENDA</h3>
                     <h5>Antonio Berni | Jeff Koons | Salvador Dalí | Fabián Burgos | Diego Gravinese | Carmelo Carrá | Ernesto Arellano | Carlos Masoch | Julio Le Parc | Ernesto Sobisch | Lea Lublin | Julio Suárez Marzal </h5>
-                    <div className="espacio"></div>
-                </div>
+                    
+                </div> */}
             </Container>
         </div>
     )
 }
 
-export default ArtistasDos;
+export default ArtistasHome;
