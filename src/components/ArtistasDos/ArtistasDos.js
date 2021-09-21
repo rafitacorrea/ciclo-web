@@ -18,8 +18,7 @@ const ArtistasDos = () =>{
             <Container className="container-artistas">
                 <div className="artistas-section">
                     <h3 className="artistas-title">ARTISTAS DE LA GALERÍA</h3>
-                    
-                    <div className="artistas-info">
+                    {/* <div className="artistas-info"> */}
                     <Row>
                         <Col>
                         <ArtistasCard name="Pier Cantamessa" image={Cantamessa}/>
@@ -34,7 +33,7 @@ const ArtistasDos = () =>{
                         <ArtistasCard name="Anna-Lisa Marjak" image={Marjak}/>
                         </Col>
                         </Row>
-                        </div>
+                        {/* </div> */}
                         
                 </div> 
                 <div className="artistas-section">

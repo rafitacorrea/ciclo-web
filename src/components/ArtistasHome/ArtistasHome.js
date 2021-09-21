@@ -35,7 +35,7 @@ const ArtistasHome = () =>{
                         </div>
                         
                 </div> 
-                <div className="espacio-home"></div>
+                
 {/*                 <div className="artistas-home-section">
                     <h3 className="artistas-home-title">OBRAS EN TRASTIENDA</h3>
                     <h5>Antonio Berni | Jeff Koons | Salvador Dalí | Fabián Burgos | Diego Gravinese | Carmelo Carrá | Ernesto Arellano | Carlos Masoch | Julio Le Parc | Ernesto Sobisch | Lea Lublin | Julio Suárez Marzal </h5>

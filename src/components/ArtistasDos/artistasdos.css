@@ -5,6 +5,13 @@
     align-items: center;
     width:100%;
 }
+.artistas-section{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
 @media only screen and (max-width: 600px) {
     .container-artistas{
         width:90%;
@@ -20,6 +27,7 @@
     color:#fff;
     padding-left:15px;
     font-family: 'Alfa Slab One';
+    width:100%;
 }
 .artistas-name{
     font-family: 'Alfa Slab One';
@@ -27,10 +35,10 @@
     padding-left:15px;
 }
 
-.artistas-info{
+/* .artistas-info{
     margin-bottom:30px;
 
-}
+} */
 .espacio{
     height:150px;
 }
@@ -42,6 +50,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+.artistas-tarjetas{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 img{
