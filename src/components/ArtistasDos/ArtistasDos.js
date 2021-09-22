@@ -19,7 +19,7 @@ const ArtistasDos = () =>{
                 <div className="artistas-section">
                     <h3 className="artistas-title">ARTISTAS DE LA GALERÍA</h3>
                     {/* <div className="artistas-info"> */}
-                    <Row>
+                    <Row className="row-artistas">
                         <Col>
                         <ArtistasCard name="Pier Cantamessa" image={Cantamessa}/>
                         </Col>
@@ -32,13 +32,13 @@ const ArtistasDos = () =>{
                         <Col>
                         <ArtistasCard name="Anna-Lisa Marjak" image={Marjak}/>
                         </Col>
-                        </Row>
+                    </Row>
                         {/* </div> */}
-                        
+                        <div className="espacio"></div>
                 </div> 
                 <div className="artistas-section">
                     <h3 className="artistas-title">OBRAS EN TRASTIENDA</h3>
-                    <h5>Antonio Berni | Jeff Koons | Salvador Dalí | Fabián Burgos | Diego Gravinese | Carmelo Carrá | Ernesto Arellano | Carlos Masoch | Julio Le Parc | Ernesto Sobisch | Lea Lublin | Julio Suárez Marzal </h5>
+                    <h5>Antonio Berni | Jeff Koons | Salvador Dalí | Fabián Burgos | Diego Gravinese | Carmelo Carrá | Ernesto Arellano | Carlos Masoch | Julio Le Parc | Ernesto Sobisch | Lea Lublin | Julio Suárez Marzal | Quino | Landrú</h5>
                     <div className="espacio"></div>
                 </div>
             </Container>

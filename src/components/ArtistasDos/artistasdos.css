@@ -19,7 +19,12 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-        
+    }
+    .row-artistas{
+        display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     }
 }
 .artistas-title{
@@ -40,7 +45,7 @@
 
 } */
 .espacio{
-    height:150px;
+    height:100px;
 }
 .artistas-info-data-img{
     width:200px;

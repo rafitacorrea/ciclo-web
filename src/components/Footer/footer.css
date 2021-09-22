@@ -9,12 +9,16 @@
     align-items: center;
 
 }
-.language-footer-mobile{
+.ul-language-footer-mobile{
     display:none;
 }
+
 @media only screen and (max-width: 600px) {
     .Footer{
         height:200px;
+    }
+    .footer-mobile{
+        width:100%;
     }
     .container-footer{
         display:flex;
@@ -32,16 +36,19 @@
     .language-footer-mobile{
         display:block;
         color:#fff;
-        margin-right:10px;
         font-family: 'Bebas Neue', cursive;
         font-size:16px;
         text-decoration:none;
         list-style:none;
         text-align: center;
+        margin:0 10px;
     }
     .ul-language-footer-mobile{
         display:flex;
         flex-direction:row;
+        justify-content: center;
+    align-items: center;
+    padding:0;
     }
 }
 .footer-social-icon{

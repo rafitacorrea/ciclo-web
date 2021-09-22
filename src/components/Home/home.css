@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@300;400&display=swap');
 
+body{
+    margin:0;
+    padding:0;
+}
 
 .banner{
     width:100%;
-    height:500px;
+    height:75vh;
 
 }
 .container{
@@ -11,23 +15,39 @@
     padding:0;
 }
 .banner-text{
-    height:500px;
+    height:75vh;
     width:100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items:left;
     background-color:#D1F218;
+    margin:0;
+}
+.row-home{
+    margin:0;
+}
+.col-lg-6{
+    margin:0;
+    padding:0;
 }
 .banner-image{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin:0;
+    padding:0;
 }
 .banner-title{
     font-family: 'Alfa Slab One';
     padding-left:20%;
     width: 80%;
+}
+.banner-title-first{
+    font-family: 'Alfa Slab One';
+    padding-left:20%;
+    width: 80%;
+    font-size:50px;
 }
 h3.banner-subtitle{
     font-family: 'Roboto';
@@ -38,13 +58,14 @@ h3.banner-subtitle{
     width:500px;
     height:auto;
 }
-.image-home-chiqui{
-    width:300px;
-    height:auto;
-}
+
 @media only screen and (max-width: 600px) {
     .banner-desktop {
       display:none;
+    }
+    .banner-title-first{
+        
+        font-size:28px;
     }
   }
 .banner-image{  

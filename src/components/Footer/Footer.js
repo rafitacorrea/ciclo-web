@@ -14,19 +14,20 @@ const Footer = () =>{
                     <Col>
                                 <div><img className="footer-logo" src={logo} alt="logo ciclo"/></div>
                     </Col>
-                    <Col>
+                    <Col lg="auto" md="auto" xs="12">
                 <div>
                     <div className="footer-social">
                         <a className="footer-social-icon" href="https://www.instagram.com/galeriaciclo/" target="_blank" rel="noreferrer"><FaInstagram/></a>
                         <a className="footer-social-icon" href="https://twitter.com/galeriaciclo" target="_blank" rel="noreferrer"><FaTwitter/></a>
                     </div>
-                    <h5 className="footer-text">© 2021 Galería Revista Ciclo<br/>Bajo Belgrano. Buenos Aires.<br/>galeriaciclo@gmail.com</h5>
+                    <h5 className="footer-text">© 2021 revista ciclo galería de arte<br/>Bajo Belgrano, Buenos Aires.<br/>galeriaciclo@gmail.com</h5>
                     <ul className="ul-language-footer-mobile">
                          <a className="language-footer-mobile" href="/">ESPAÑOL</a>
                         <a className="language-footer-mobile" href="/">ENGLISH</a>
                     </ul>
                 </div>
                 </Col>
+                
                 <Col>
                 <ul className="ul-language-footer">
                     <a className="language-footer" href="/">ESPAÑOL</a>

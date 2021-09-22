@@ -26,9 +26,9 @@ const Menu = () =>{
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">GALERÍA</Nav.Link>
-              <Nav.Link href="/Exposiciones">EXPOSICIONES</Nav.Link>
-              <Nav.Link href="/Artistas">ARTISTAS Y TRASTIENDA</Nav.Link>
-              <Nav.Link href="../../../public/revista.html" target="_blank" rel="noreferrer">REVISTA</Nav.Link>
+              <Nav.Link href="/exposiciones">EXPOSICIONES</Nav.Link>
+              <Nav.Link href="/artistas">ARTISTAS Y TRASTIENDA</Nav.Link>
+              {/* <Nav.Link href="../../../public/revista.html" target="_blank" rel="noreferrer">REVISTA</Nav.Link> */}
               <Contacto href="#">VISITAS Y CONTACTO</Contacto>
             </Nav>
             <Nav> 

@@ -34,10 +34,7 @@
 	-webkit-transition: .5s ease;
     transition: .5s ease;
 }
-.sala-img:hover {
-	-webkit-pacity:.3;
-	opacity:.3;
-}
+
 .muestra-title{
     z-index:3;
     position:absolute;
@@ -47,22 +44,40 @@
     text-align: center;
     text-decoration:none;
 }
+.muestra-title-size{
+    font-size:72px;
+}
 .muestra-title:hover {
     -webkit-transition: .5s ease;
     transition: .5s ease;
     color:#D1F218;
     
-}
+} 
 .muestra-subtitle{
     z-index:3;
     position:absolute;
-    bottom:10px;
+    bottom:20px;
+    font-size:42px;
     background-color:#D1F218;
     padding: 2px 10px;
 }
+.muestra-subtitle-link{
+    text-decoration:none;
+    color:#000;
+}
+
 @media only screen and (max-width: 600px) {
     .muestra-title-size{
         font-size:18px;
         
     }
+    .muestra-mobile{
+        display:block;
+    }
+    .muestra-desktop{
+        display:none;
+    }
+}
+.muestra-mobile{
+    display:none;
 }
